@@ -1,0 +1,15 @@
+2021-04-14 Wednesday 15:09:12  sxdw_monitor.py : DEBUG  sxdw_monitor start!
+2021-04-14 Wednesday 15:14:02  sxdw_monitor.py : INFO  sxdw_table_20200612.csv detected!
+2021-04-14 Wednesday 15:14:04  sxdw_monitor.py : INFO  sxdw_table_20200612.csv processed done!
+2021-04-14 Wednesday 15:14:04  sxdw_monitor.py : INFO  sxdw_table_20200613.csv detected!
+2021-04-14 Wednesday 15:14:05  sxdw_monitor.py : INFO  sxdw_table_20200613.csv processed done!
+2021-04-14 Wednesday 15:14:05  sxdw_monitor.py : INFO  sxdw_table_20200615.csv detected!
+2021-04-14 Wednesday 15:14:07  sxdw_monitor.py : INFO  sxdw_table_20200615.csv processed done!
+2021-04-14 Wednesday 15:14:07  sxdw_monitor.py : INFO  sxdw_table_20200614.csv detected!
+2021-04-14 Wednesday 15:14:08  sxdw_monitor.py : INFO  sxdw_table_20200614.csv processed done!
+2021-04-14 Wednesday 15:14:08  sxdw_monitor.py : INFO  sxdw_table_20200617.csv detected!
+2021-04-14 Wednesday 15:14:10  sxdw_monitor.py : INFO  sxdw_table_20200617.csv processed done!
+2021-04-14 Wednesday 15:14:10  sxdw_monitor.py : INFO  sxdw_table_20200618.csv detected!
+2021-04-14 Wednesday 15:14:12  sxdw_monitor.py : INFO  sxdw_table_20200618.csv processed done!
+2021-04-14 Wednesday 15:14:12  sxdw_monitor.py : INFO  sxdw_table_20200616.csv detected!
+2021-04-14 Wednesday 15:14:14  sxdw_monitor.py : INFO  sxdw_table_20200616.csv processed done!

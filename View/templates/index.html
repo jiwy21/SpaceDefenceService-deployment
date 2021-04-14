@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Service list</h1>
+
+{% for service in service_list %}
+<div><p>{{service.id}} : <b>{{service.name}}</b></p></div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,49 @@
+
+
+Test website:
+http://localhost:29000/
+
+
+Intermediate list given arrival time range:
+http://localhost:29000/intermediate_list?time_begin=2020-06-13%2000:00:00&time_end=2020-06-13%2000:10:00
+
+
+Intermediate IQ data given id in database:
+http://localhost:29000/intermediate_IQ?id_zpsx=100
+
+
+Intermediate list given arrival time of sxdw:
+http://localhost:29000/intermediate_list_sxdw?time_seek=2020-06-13%2009:50:10
+
+
+sxdw list given arrival time of intermediate:
+http://localhost:29000/sxdw_list_intermediate?time_seek=2020-06-13%2009:50:06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

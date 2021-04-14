@@ -1,0 +1,10 @@
+2021-04-14 Wednesday 15:08:53  run.py : DEBUG  services start!
+2021-04-14 Wednesday 15:08:53  _internal.py : INFO   * Running on http://localhost:29000/ (Press CTRL+C to quit)
+2021-04-14 Wednesday 15:09:45  service_view.py : INFO  <Request 'http://localhost:29000/sxdw_list_intermediate?time_seek=2020-06-13 09:50:06' [GET]>
+2021-04-14 Wednesday 15:09:45  _internal.py : INFO  127.0.0.1 - - [14/Apr/2021 15:09:45] "[37mGET /sxdw_list_intermediate?time_seek=2020-06-13%2009:50:06 HTTP/1.1[0m" 200 -
+2021-04-14 Wednesday 15:09:53  service_view.py : INFO  <Request 'http://localhost:29000/intermediate_list?time_begin=2020-06-13 10:00:00&time_end=2020-06-13 11:00:00' [GET]>
+2021-04-14 Wednesday 15:09:53  _internal.py : INFO  127.0.0.1 - - [14/Apr/2021 15:09:53] "[37mGET /intermediate_list?time_begin=2020-06-13%2010:00:00&time_end=2020-06-13%2011:00:00 HTTP/1.1[0m" 200 -
+2021-04-14 Wednesday 15:09:57  service_view.py : INFO  <Request 'http://localhost:29000/intermediate_list?time_begin=2020-06-13 10:00:00&time_end=2020-06-13 11:00:00' [GET]>
+2021-04-14 Wednesday 15:09:57  _internal.py : INFO  127.0.0.1 - - [14/Apr/2021 15:09:57] "[37mGET /intermediate_list?time_begin=2020-06-13%2010:00:00&time_end=2020-06-13%2011:00:00 HTTP/1.1[0m" 200 -
+2021-04-14 Wednesday 15:15:53  service_view.py : INFO  <Request 'http://localhost:29000/intermediate_list?time_begin=2020-06-13 10:00:00&time_end=2020-06-13 11:00:00' [GET]>
+2021-04-14 Wednesday 15:15:53  _internal.py : INFO  127.0.0.1 - - [14/Apr/2021 15:15:53] "[37mGET /intermediate_list?time_begin=2020-06-13%2010:00:00&time_end=2020-06-13%2011:00:00 HTTP/1.1[0m" 200 -
