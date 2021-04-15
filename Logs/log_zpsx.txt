@@ -1,4 +1,1 @@
-2021-04-14 Wednesday 15:09:26  zpsx_monitor.py : DEBUG  zpsx monitor start!
-2021-04-14 Wednesday 15:18:12  zpsx_monitor.py : INFO  websites_test.txt detected!
-2021-04-14 Wednesday 15:18:12  zpsx_monitor.py : INFO  websites_test.txt is illegal!
-2021-04-14 Wednesday 15:18:12  zpsx_monitor.py : INFO  websites_test.txt has been put into rubbish.
+2021-04-15 Thursday 11:13:06  zpsx_monitor.py : DEBUG  zpsx monitor start!

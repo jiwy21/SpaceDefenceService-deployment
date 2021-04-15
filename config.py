@@ -56,21 +56,21 @@ FSK_THRESHOLD = 20
 TIME_DELAY = 5
 
 # 定位结果数据监控
-DIR_ORIGINAL_SXDW = '/Monitor/sxdw/original/'
-DIR_SAVED_SXDW = '/Monitor/sxdw/processed/'
-DIR_RUBBISH_SXDW = '/Monitor/sxdw/rubbish/'
+DIR_ORIGINAL_SXDW = '/home/tmxk-111/Monitor/sxdw/original/'
+DIR_SAVED_SXDW = '/home/tmxk-111/Monitor/sxdw/processed/'
+DIR_RUBBISH_SXDW = '/home/tmxk-111/Monitor/sxdw/rubbish/'
 
 # 中频时隙数据监控
-DIR_ORIGINAL_ZPSX = '/Monitor/zpsx/original/'
-DIR_SAVED_ZPSX = '/Monitor/zpsx/processed/'
-DIR_RUBBISH_ZPSX = '/Monitor/zpsx/rubbish/'
-DIR_IQ_ZPSX = '/Monitor/zpsx/iq/'
+DIR_ORIGINAL_ZPSX = '/home/tmxk-111/Monitor/zpsx/original/'
+DIR_SAVED_ZPSX = '/home/tmxk-111/Monitor/zpsx/processed/'
+DIR_RUBBISH_ZPSX = '/home/tmxk-111/Monitor/zpsx/rubbish/'
+DIR_IQ_ZPSX = '/home/tmxk-111/Monitor/zpsx/iq/'
 
 
 # 日志输出
-services_log = './Logs/log_run.txt'
-sxdw_log = './Logs/log_sxdw.txt'
-zpsx_log = './Logs/log_zpsx.txt'
+services_log = 'Logs/log_run.txt'
+sxdw_log = 'Logs/log_sxdw.txt'
+zpsx_log = 'Logs/log_zpsx.txt'
 
 
 

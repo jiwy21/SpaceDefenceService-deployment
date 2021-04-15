@@ -1,8 +1,9 @@
 version: '3'
 services:
-  web:
+  web_monitor:
     build: .
     ports: 
-      - "29000:29000"
+      - "8888:29000"
     volumes:
       - /media:/media
+      - /home:/home

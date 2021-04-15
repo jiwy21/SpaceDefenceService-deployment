@@ -270,7 +270,7 @@ if __name__ == '__main__':
                     zpsx_db.mv2rubbish(file)
                     logging.info(file + ' has been put into rubbish.')
                 else:
-                    logging.info(file + 'is processing!')
+                    logging.info(file + ' is processing!')
                     zpsx_db.write2db(file)
                     zpsx_db.mv2processed(file)
                     logging.info(file + ' processed done!')
