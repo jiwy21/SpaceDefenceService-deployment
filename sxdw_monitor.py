@@ -132,9 +132,15 @@ if __name__ == '__main__':
     logging = console_out(cfg.sxdw_log)
     logging.debug('sxdw_monitor start!')
 
+    cnt = 0
+    mod = 3600 / cfg.TIME_DELAY
     while 1:
 
         time.sleep(sxdw_db.time_delay)
+        cnt += 1
+        if cnt % mod == 0:
+            logging.info('sxdw_monitor is still monitoring!')
+            cnt = 0
 
         files = os.listdir(sxdw_db.original_path)
 

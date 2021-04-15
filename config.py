@@ -66,11 +66,10 @@ DIR_SAVED_ZPSX = '/home/tmxk-111/Monitor/zpsx/processed/'
 DIR_RUBBISH_ZPSX = '/home/tmxk-111/Monitor/zpsx/rubbish/'
 DIR_IQ_ZPSX = '/home/tmxk-111/Monitor/zpsx/iq/'
 
-
 # 日志输出
-services_log = 'Logs/log_run.txt'
-sxdw_log = 'Logs/log_sxdw.txt'
-zpsx_log = 'Logs/log_zpsx.txt'
+services_log = '/home/tmxk-111/Monitor/logs/log_run.txt'
+sxdw_log = '/home/tmxk-111/Monitor/logs/log_sxdw.txt'
+zpsx_log = '/home/tmxk-111/Monitor/logs/log_zpsx.txt'
 
 
 

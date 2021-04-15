@@ -253,9 +253,15 @@ if __name__ == '__main__':
     logging = console_out(cfg.zpsx_log)
     logging.debug('zpsx monitor start!')
 
+    cnt = 0
+    mod = 3600 / cfg.TIME_DELAY
     while 1:
 
         time.sleep(zpsx_db.time_delay)
+        cnt += 1
+        if cnt % mod == 0:
+            logging.info('zpsx_monitor is still monitoring!')
+            cnt = 0
 
         files = os.listdir(zpsx_db.original_path)
 
