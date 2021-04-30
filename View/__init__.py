@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
-app.config.from_object('config')
+app.config.from_object('Config')
 
 
 from View import index

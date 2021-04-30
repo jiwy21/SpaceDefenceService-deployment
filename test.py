@@ -1,18 +1,12 @@
 
 
-from flask import Flask
-import logging
-app = Flask(__name__)
-@app.route('/')
-def root():
-    app.logger.info('info log')
-    app.logger.warning('warning log')
-    return 'hello'
+import os
+
 if __name__ == '__main__':
-    app.debug = True
-    handler = logging.FileHandler('flask.log')
-    app.logger.addHandler(handler)
-    app.run()
+
+    path = '1/2/3'
+    if not os.path.exists(path):
+        os.makedirs(path, 0o777)
 
 
 

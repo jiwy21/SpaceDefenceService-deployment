@@ -3,7 +3,7 @@
 
 import shutil
 import pandas as pd
-import config as cfg
+import Config.config as cfg
 import psycopg2
 import time
 import os
@@ -128,8 +128,19 @@ class sxdw2db:
 
 if __name__ == '__main__':
 
+    if not os.path.exists(cfg.DIR_ORIGINAL_SXDW):
+        os.makedirs(cfg.DIR_ORIGINAL_SXDW, mode=0o777)
+    if not os.path.exists(cfg.DIR_SAVED_SXDW):
+        os.makedirs(cfg.DIR_SAVED_SXDW, mode=0o777)
+    if not os.path.exists(cfg.DIR_RUBBISH_SXDW):
+        os.makedirs(cfg.DIR_RUBBISH_SXDW, mode=0o777)
+    if not os.path.exists(cfg.DIR_LOGS):
+        os.makedirs(cfg.DIR_LOGS, mode=0o777)
+
     sxdw_db = sxdw2db()
-    logging = console_out(cfg.sxdw_log)
+
+    sxdw_log = cfg.DIR_LOGS + cfg.sxdw_log
+    logging = console_out(sxdw_log)
     logging.debug('sxdw_monitor start!')
 
     cnt = 0

@@ -3,7 +3,6 @@
 
 ZPSX_SOURCE_DIR = '/media/tmxk-111/4C20F5B420F5A55C/36Data/Intermediate/2020-06-13/'
 ZPSX_DEST_DIR = '/media/tmxk-111/4C20F5B420F5A55C/36Data/IQ_Data/2020-06-13/'
-
 SXDW_SOURCE_DIR = '/media/tmxk-111/4C20F5B420F5A55C/36Data/sxdw/'
 
 # Days in 0001-01-01 : 2000-01-01
@@ -13,6 +12,7 @@ TABLE_SXDW = 'sxdw'
 
 PORT = 29000
 
+# 数据库设置
 USER = 'postgres'
 PASSWORD_DB = 'postgres'
 PORT_DB = '5432'
@@ -56,20 +56,21 @@ FSK_THRESHOLD = 20
 TIME_DELAY = 5
 
 # 定位结果数据监控
-DIR_ORIGINAL_SXDW = '/home/tmxk-111/Monitor/sxdw/original/'
-DIR_SAVED_SXDW = '/home/tmxk-111/Monitor/sxdw/processed/'
-DIR_RUBBISH_SXDW = '/home/tmxk-111/Monitor/sxdw/rubbish/'
+DIR_ORIGINAL_SXDW = './Monitor/sxdw/original/'
+DIR_SAVED_SXDW = './Monitor/sxdw/processed/'
+DIR_RUBBISH_SXDW = './Monitor/sxdw/rubbish/'
 
 # 中频时隙数据监控
-DIR_ORIGINAL_ZPSX = '/home/tmxk-111/Monitor/zpsx/original/'
-DIR_SAVED_ZPSX = '/home/tmxk-111/Monitor/zpsx/processed/'
-DIR_RUBBISH_ZPSX = '/home/tmxk-111/Monitor/zpsx/rubbish/'
-DIR_IQ_ZPSX = '/home/tmxk-111/Monitor/zpsx/iq/'
+DIR_ORIGINAL_ZPSX = './Monitor/zpsx/original/'
+DIR_SAVED_ZPSX = './Monitor/zpsx/processed/'
+DIR_RUBBISH_ZPSX = './Monitor/zpsx/rubbish/'
+DIR_IQ_ZPSX = './Monitor/zpsx/iq/'
 
 # 日志输出
-services_log = '/home/tmxk-111/Monitor/logs/log_run.txt'
-sxdw_log = '/home/tmxk-111/Monitor/logs/log_sxdw.txt'
-zpsx_log = '/home/tmxk-111/Monitor/logs/log_zpsx.txt'
+DIR_LOGS = './Logs/'
+services_log = 'log_run.txt'
+sxdw_log = 'log_sxdw.txt'
+zpsx_log = 'log_zpsx.txt'
 
 
 

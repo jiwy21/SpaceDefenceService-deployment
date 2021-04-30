@@ -4,7 +4,7 @@
 
 import shutil
 import struct
-import config as cfg
+import Config.config as cfg
 import psycopg2
 from datetime import date
 from Utils.snr_estimate import snr_estimate
@@ -249,8 +249,21 @@ class zpsx2db:
 
 if __name__ == '__main__':
 
+    if not os.path.exists(cfg.DIR_ORIGINAL_ZPSX):
+        os.makedirs(cfg.DIR_ORIGINAL_ZPSX, mode=0o777)
+    if not os.path.exists(cfg.DIR_SAVED_ZPSX):
+        os.makedirs(cfg.DIR_SAVED_ZPSX, mode=0o777)
+    if not os.path.exists(cfg.DIR_RUBBISH_ZPSX):
+        os.makedirs(cfg.DIR_RUBBISH_ZPSX, mode=0o777)
+    if not os.path.exists(cfg.DIR_IQ_ZPSX):
+        os.makedirs(cfg.DIR_IQ_ZPSX, mode=0o777)
+    if not os.path.exists(cfg.DIR_LOGS):
+        os.makedirs(cfg.DIR_LOGS, mode=0o777)
+
     zpsx_db = zpsx2db()
-    logging = console_out(cfg.zpsx_log)
+
+    zpsx_log = cfg.DIR_LOGS + cfg.zpsx_log
+    logging = console_out(zpsx_log)
     logging.debug('zpsx monitor start!')
 
     cnt = 0

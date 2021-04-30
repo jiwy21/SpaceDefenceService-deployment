@@ -5,5 +5,6 @@ services:
     ports: 
       - "8888:29000"
     volumes:
-      - /media:/media
-      - /home:/home
+      - ~/SpaceDefenceService/Config:/SpaceDefenceService/Config
+      - ~/SpaceDefenceService/Logs:/SpaceDefenceService/Logs
+      - ~/SpaceDefenceService/Monitor:/SpaceDefenceService/Monitor

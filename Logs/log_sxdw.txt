@@ -1,1 +1,3 @@
-2021-04-15 Thursday 11:13:03  sxdw_monitor.py : DEBUG  sxdw_monitor start!
+2021-04-27 Tuesday 10:00:23  sxdw_monitor.py : DEBUG  sxdw_monitor start!
+2021-04-27 Tuesday 10:01:23  sxdw_monitor.py : INFO  sxdw_table_20200614.csv detected!
+2021-04-27 Tuesday 10:01:24  sxdw_monitor.py : INFO  sxdw_table_20200614.csv processed done!

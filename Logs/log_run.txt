@@ -1,3 +1,3 @@
-2021-04-15 Thursday 11:13:03  _internal.py : INFO   * Running on http://localhost:29000/ (Press CTRL+C to quit)
-2021-04-15 Thursday 11:13:27  service_view.py : INFO  <Request 'http://localhost:29000/sxdw_list_intermediate?time_seek=2020-06-13 09:50:06' [GET]>
-2021-04-15 Thursday 11:13:27  _internal.py : INFO  127.0.0.1 - - [15/Apr/2021 11:13:27] "[37mGET /sxdw_list_intermediate?time_seek=2020-06-13%2009:50:06 HTTP/1.1[0m" 200 -
+2021-04-27 Tuesday 10:00:23  _internal.py : INFO   * Running on http://localhost:29000/ (Press CTRL+C to quit)
+2021-04-27 Tuesday 10:00:30  service_view.py : INFO  <Request 'http://192.168.50.100:29000/intermediate_list?time_begin=2020-06-14 00:00:00&time_end=2020-06-14 00:10:00' [GET]>
+2021-04-27 Tuesday 10:00:30  _internal.py : INFO  192.168.50.100 - - [27/Apr/2021 10:00:30] "[37mGET /intermediate_list?time_begin=2020-06-14%2000:00:00&time_end=2020-06-14%2000:10:00 HTTP/1.1[0m" 200 -

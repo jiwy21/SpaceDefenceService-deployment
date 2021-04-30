@@ -2,7 +2,7 @@
 
 # -*- coding:utf-8 -*-
 
-import config as cfg
+import Config as cfg
 
 
 

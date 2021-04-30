@@ -1,7 +1,7 @@
 
 # -*- coding:utf-8 -*-
 
-import config as cfg
+import Config as cfg
 import os
 import psycopg2
 import pandas as pd

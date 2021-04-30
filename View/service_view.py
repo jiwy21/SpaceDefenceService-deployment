@@ -4,8 +4,13 @@ from View import app
 from Logic.service_logic import ServiceLogic
 from flask import request
 from log import console_out
-import config as cfg
-logging = console_out(cfg.services_log)
+import Config.config as cfg
+import os
+
+if not os.path.exists(cfg.DIR_LOGS):
+    os.makedirs(cfg.DIR_LOGS, mode=0o777)
+services_log = cfg.DIR_LOGS + cfg.services_log
+logging = console_out(services_log)
 
 @app.route('/intermediate_list', methods=['GET', 'POST'])
 @app.route('/intermediate_list.json', methods=['GET', 'POST'])

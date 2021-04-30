@@ -1,7 +1,7 @@
 
 import datetime
 import psycopg2
-import config as cfg
+import Config.config as cfg
 from Model.service_meta import IntermediateMeta, IQMeta, SXDWMeta
 import numpy as np
 import time

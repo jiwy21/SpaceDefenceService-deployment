@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 import numpy as np
-import config as cfg
+import Config.config as cfg
 import random
 
 

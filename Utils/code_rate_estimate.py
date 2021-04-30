@@ -5,7 +5,7 @@
 from pywt import cwt
 from scipy import signal
 from numpy.fft import fft
-import config as cfg
+import Config.config as cfg
 import random
 import numpy as np
 from scipy.signal import butter, lfilter

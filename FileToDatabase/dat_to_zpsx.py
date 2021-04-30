@@ -1,7 +1,7 @@
 
 # -*- coding:utf-8 -*-
 
-import config as cfg
+import Config as cfg
 import struct
 from datetime import date
 import os
