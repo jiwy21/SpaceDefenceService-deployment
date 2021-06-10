@@ -1,0 +1,40 @@
+2021-06-09 Wednesday 14:35:31  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3742, name=资料.pptx>
+2021-06-09 Wednesday 14:35:31  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:35:59  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/dddddd (\xe5\x89\xaf\xe6\x9c\xac).pptx', wd=1, mask=IN_MOVED_TO, cookie=3746, name=dddddd (副本).pptx>
+2021-06-09 Wednesday 14:35:59  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:36:04  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_FROM, cookie=3750, name=资料.pptx>
+2021-06-09 Wednesday 14:36:06  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/dddddd (\xe5\x89\xaf\xe6\x9c\xac).pptx', wd=1, mask=IN_MOVED_FROM, cookie=3754, name=dddddd (副本).pptx>
+2021-06-09 Wednesday 14:36:09  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3758, name=资料.pptx>
+2021-06-09 Wednesday 14:36:09  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:36:16  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_CREATE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:36:16  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_MODIFY, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:36:16  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:36:18  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=资料.pptx>
+2021-06-09 Wednesday 14:36:18  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_DELETE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:36:20  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_FROM, cookie=3768, name=资料.pptx>
+2021-06-09 Wednesday 14:36:23  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3772, name=资料.pptx>
+2021-06-09 Wednesday 14:36:23  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:36:25  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_FROM, cookie=3776, name=资料.pptx>
+2021-06-09 Wednesday 14:36:39  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3788, name=资料.pptx>
+2021-06-09 Wednesday 14:36:39  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:36:42  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/dddddd (\xe5\x89\xaf\xe6\x9c\xac).pptx', wd=1, mask=IN_MOVED_TO, cookie=3792, name=dddddd (副本).pptx>
+2021-06-09 Wednesday 14:36:42  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:36:44  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/dddddd (\xe5\x89\xaf\xe6\x9c\xac).pptx', wd=1, mask=IN_MOVED_FROM, cookie=3796, name=dddddd (副本).pptx>
+2021-06-09 Wednesday 14:36:47  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_FROM, cookie=3800, name=资料.pptx>
+2021-06-09 Wednesday 14:37:16  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3804, name=资料.pptx>
+2021-06-09 Wednesday 14:37:16  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:37:16  zpsx_copy.py : INFO  ./Monitor/zpsx/source/资料.pptx被创建
+2021-06-09 Wednesday 14:37:39  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_CREATE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:37:39  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_MODIFY, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:37:39  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:37:42  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_CLOSE_WRITE, cookie=0, name=资料.pptx>
+2021-06-09 Wednesday 14:37:42  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/.~lock.\xe8\xb5\x84\xe6\x96\x99.pptx#', wd=1, mask=IN_DELETE, cookie=0, name=.~lock.资料.pptx#>
+2021-06-09 Wednesday 14:39:01  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_FROM, cookie=3830, name=资料.pptx>
+2021-06-09 Wednesday 14:39:09  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/dddddd (\xe5\x89\xaf\xe6\x9c\xac).pptx', wd=1, mask=IN_MOVED_TO, cookie=3834, name=dddddd (副本).pptx>
+2021-06-09 Wednesday 14:39:09  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:39:09  zpsx_copy.py : INFO  ./Monitor/zpsx/source/dddddd (副本).pptx被创建
+2021-06-09 Wednesday 14:39:09  zpsx_copy.py : INFO  dddddd (副本).pptx被拷贝至./Monitor/zpsx/original/
+2021-06-09 Wednesday 14:39:26  inotify_buffer.py : DEBUG  in-event <InotifyEvent: src_path=b'./Monitor/zpsx/source/\xe8\xb5\x84\xe6\x96\x99.pptx', wd=1, mask=IN_MOVED_TO, cookie=3843, name=资料.pptx>
+2021-06-09 Wednesday 14:39:26  inotify_buffer.py : DEBUG  could not find matching move_from event
+2021-06-09 Wednesday 14:39:26  zpsx_copy.py : INFO  ./Monitor/zpsx/source/资料.pptx被创建
+2021-06-09 Wednesday 14:39:26  zpsx_copy.py : INFO  资料.pptx被拷贝至./Monitor/zpsx/original/

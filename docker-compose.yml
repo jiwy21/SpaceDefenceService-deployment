@@ -1,10 +1,38 @@
 version: '3'
 services:
   web_monitor:
-    build: .
+    image: spacedefenceservice_new:v0
     ports: 
       - "8888:29000"
     volumes:
-      - ~/SpaceDefenceService/Config:/SpaceDefenceService/Config
-      - ~/SpaceDefenceService/Logs:/SpaceDefenceService/Logs
-      - ~/SpaceDefenceService/Monitor:/SpaceDefenceService/Monitor
+      #- ~/SpaceDefenceService/Config:/SpaceDefenceService/Config
+      #- ~/SpaceDefenceService/Logs:/SpaceDefenceService/Logs
+      #- ~/SpaceDefenceService/Monitor:/SpaceDefenceService/Monitor
+      #- ~/SpaceDefenceService:/SpaceDefenceService
+
+      #- /STDB/SpaceDefenceService/Config:/SpaceDefenceService/Config
+      #- /STDB/SpaceDefenceService/Logs:/SpaceDefenceService/Logs
+      #- /STDB/SpaceDefenceService/Monitor:/SpaceDefenceService/Monitor
+      - /STDB/SpaceDefenceService:/SpaceDefenceService
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres_dc
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres #在此填写postgres的用户名
+      POSTGRES_DB: postgres #在此填写postgres的数据库名，默认是postgres
+      POSTGRES_PASSWORD: postgres #在此填写posgres的数据库密码
+    ports:
+      - "15432:5432"
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin_dc
+    environment: 
+      PGADMIN_DEFAULT_EMAIL: postgres@yeah.net #在此填写pgAdmin登录账户邮箱
+      PGADMIN_DEFAULT_PASSWORD: 123456 #在此填写pgAdmin密码
+    ports:
+      - "15050:80"
+volumes:
+  pgdata:

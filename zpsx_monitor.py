@@ -16,10 +16,14 @@ import time
 import os
 from log import console_out
 
+zpsx_log = cfg.DIR_LOGS + cfg.zpsx_log
+logging = console_out(zpsx_log)
+
 
 class zpsx2db:
 
     def __init__(self):
+        self.source_path = cfg.DIR_SOURCE_ZPSX
         self.original_path = cfg.DIR_ORIGINAL_ZPSX
         self.processed_path = cfg.DIR_SAVED_ZPSX
         self.rubbish_path = cfg.DIR_RUBBISH_ZPSX
@@ -28,11 +32,15 @@ class zpsx2db:
     def illegal(self, file):
         return (file.split('.')[-1] != 'dat') or (file[:2] != '0x')
 
+    def cp2original(self, file):
+        shutil.copy(self.source_path + file, self.original_path + file)
+
     def mv2rubbish(self, file):
         shutil.move(self.original_path + file, self.rubbish_path + file)
 
     def mv2processed(self, file):
         shutil.move(self.original_path + file, self.processed_path + file)
+
 
     def write2db(self, file):
 
@@ -158,6 +166,7 @@ class zpsx2db:
                     bit_rate = ((packages_resolved - 1) * 1024 + length_resolved) / 2 * 8 \
                                / (duration_resolved * 1e-4)
                     bit_rate = float('%.4f' % bit_rate)
+                    # logging.info('bit_rate calculated')
 
                     # 采样率（Hz）
                     fs_rate = ((packages_resolved - 1) * 128 + length_resolved / 8) / (duration_resolved * 1e-4)
@@ -262,8 +271,6 @@ if __name__ == '__main__':
 
     zpsx_db = zpsx2db()
 
-    zpsx_log = cfg.DIR_LOGS + cfg.zpsx_log
-    logging = console_out(zpsx_log)
     logging.debug('zpsx monitor start!')
 
     cnt = 0
@@ -291,6 +298,8 @@ if __name__ == '__main__':
                 else:
                     logging.info(file + ' is processing!')
                     zpsx_db.write2db(file)
+                    logging.info('modulation_mode, code_rate, bit_rate, snr, freq_carrier and '
+                                 'fs_rate caculated and put into database!')
                     zpsx_db.mv2processed(file)
                     logging.info(file + ' processed done!')
 

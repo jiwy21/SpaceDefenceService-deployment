@@ -15,7 +15,7 @@ PORT = 29000
 # 数据库设置
 USER = 'postgres'
 PASSWORD_DB = 'postgres'
-PORT_DB = '5432'
+PORT_DB = '15432'
 SERVER_IP = '172.17.0.1'
 DATABASE = 'postgres'
 
@@ -61,6 +61,7 @@ DIR_SAVED_SXDW = './Monitor/sxdw/processed/'
 DIR_RUBBISH_SXDW = './Monitor/sxdw/rubbish/'
 
 # 中频时隙数据监控
+DIR_SOURCE_ZPSX = './Monitor/zpsx/source/'
 DIR_ORIGINAL_ZPSX = './Monitor/zpsx/original/'
 DIR_SAVED_ZPSX = './Monitor/zpsx/processed/'
 DIR_RUBBISH_ZPSX = './Monitor/zpsx/rubbish/'
@@ -71,6 +72,7 @@ DIR_LOGS = './Logs/'
 services_log = 'log_run.txt'
 sxdw_log = 'log_sxdw.txt'
 zpsx_log = 'log_zpsx.txt'
+zpsx_log_source = 'log_zpsx_source.txt'
 
 
 

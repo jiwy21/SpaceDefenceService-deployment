@@ -7,3 +7,4 @@ pandas==0.22.0
 scipy==1.0.0
 PyWavelets==0.5.2
 matplotlib==3.2.2
+watchdog==2.1.2
